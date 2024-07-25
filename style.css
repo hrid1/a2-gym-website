@@ -10,7 +10,6 @@ body {
   font-family: "Inter", sans-serif;
   /* max-width: 1440px; */
   margin: 0 auto;
-  /* font-family: "Dancing Script", cursive; */
   background-color: black;
 }
 
@@ -110,7 +109,6 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-
   width: 99%;
 }
 
@@ -159,7 +157,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  /* border: 2px solid green; */
 }
 
 #sticar-1 {
@@ -213,7 +210,6 @@ body {
 }
 
 .habit-section {
-  /* width: 90%; */
   text-align: center;
   background: #000;
   color: white;
@@ -225,13 +221,11 @@ body {
   gap: 1.25rem;
   text-align: center;
   justify-content: center;
-  /* border: 1px solid beige; */
   width: 95%;
   margin: 2rem auto;
 }
 
 .habit-card {
-  /* border: 1px solid blanchedalmond; */
   width: 20rem;
   padding: 1rem;
 }
@@ -247,7 +241,6 @@ body {
 
 .run-section {
   width: 80%;
-  border: 1px solid blue;
   margin: 0 auto;
   padding: 2rem;
   display: flex;
@@ -260,7 +253,6 @@ body {
 .run-details {
   padding: 1rem;
   width: 40%;
-  /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -273,7 +265,6 @@ body {
 
 .run-image {
   width: 40%;
-  /* border: 2px solid saddlebrown; */
   overflow: hidden;
   border-radius: 18px;
 }
@@ -281,35 +272,29 @@ body {
 .run-image > img {
   width: 100%;
   height: 100%;
-  /* object-fit: contain; */
 }
 /* --------------------------------------bmi section---------------------------------- */
 
 .bmi-info {
   width: 50%;
-  /* border: 1px solid white; */
   padding: 4rem;
   margin-left: 200px;
 }
 .bmi-section {
   background-color: rgba(140, 136, 130, 0.28);
-  /* border: 1px solid rgb(40, 194, 48); */
   padding: 3rem;
-  /* margin: 10px; */
 }
 .bmi-container {
   display: flex;
   width: 80%;
   margin: 0 auto;
   justify-content: center;
-  /* border: 2px solid blue; */
   gap: 20px;
 }
 
 .bmi-chart,
 .bmi-calculator {
   width: 50%;
-  /* border: 1px solid slateblue; */
 }
 /* bmi chart */
 .bmi-chart > h3 {
@@ -333,7 +318,6 @@ td {
 /* bmi-input-field */
 
 .form-container {
-  /* border: 1px solid blue; */
   width: 100%;
 }
 .form-container > .input-field {
@@ -368,11 +352,8 @@ td {
 }
 
 .trainer-container {
-  border: 5px solid green;
-
   display: grid;
   place-items: center;
-
   border-radius: 10px;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 8px;
@@ -385,7 +366,6 @@ td {
 
 .trainer-pic {
   position: relative;
-  /* border: 1px solid blue; */
   width: 95%;
   height: 95%;
   border-radius: 14px;
@@ -395,7 +375,6 @@ td {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* border-radius: 12px; */
 }
 
 .bg-gradient {
@@ -433,37 +412,35 @@ td {
 }
 
 .important-links {
-  border: 1px solid blue;
   display: flex;
   gap: 1rem;
   justify-content: space-between;
   justify-content: space-around;
 }
 
-
 .all-links {
   list-style: none;
 }
-.all-links > li{
+.all-links > li {
   margin-top: 10px;
 }
-
 
 .copy-right {
   text-align: center;
   margin: 0 auto;
 }
-.copy-right > hr{
+.copy-right > hr {
   width: 85%;
   text-align: center;
   margin: 0 auto;
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.copy-right > p{
+.copy-right > p {
   padding: 2rem;
 }
-/*--------------------------------------------------------------- responsive design */
+/*--------------------Mobile--------------------------------
+--------------- Responsive Design ---------------------------*/
 
 @media screen and (max-width: 576px) {
   #hero-section {
@@ -500,11 +477,6 @@ td {
     right: -35px;
   }
 
-  /* .img-sticar {
-    width: 180px;
-    height: 95px;
-  } */
-
   .habit-card-container {
     flex-direction: column;
     /* justify-content: center; */
@@ -534,7 +506,6 @@ td {
 
     padding: 1rem;
     margin: 0;
-    /* margin-left: 200px; */
   }
 
   .bmi-section {
@@ -549,7 +520,6 @@ td {
   .bmi-chart,
   .bmi-calculator {
     width: 100%;
-    border: 1px solid slateblue;
     padding: 1rem;
   }
 
@@ -588,6 +558,8 @@ td {
     gap: 1rem;
   }
 }
+
+/* responsive for tablet ---------NOT Compleate */
 
 @media screen and (max-width: 825px) {
   .nav-items {
