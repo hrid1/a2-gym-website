@@ -92,9 +92,9 @@
     </header>
 
     <main class="main-section">
-      <!-- <div class="habit-section">
-        <h3>Chnage YOur Habits</h3>
-        <p>
+      <div class="habit-section">
+        <h3 class="text-primary">Change Your Habits</h3>
+        <p class="text-secondary">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
           natus magnam libero quis.
         </p>
@@ -105,55 +105,69 @@
               <img src="./images/image 2.png" alt="" />
             </div>
             <h4>Movement</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="text-secondary">
+              We believe fitness should be accessible to everyone.
+            </p>
           </div>
           <div class="habit-card">
             <div class="card-img">
               <img src="./images/image 3.png" alt="" />
             </div>
             <h4>Time</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="text-secondary">
+              We believe fitness should be accessible to everyone.
+            </p>
           </div>
           <div class="habit-card">
             <div class="card-img">
               <img src="./images/image 4.png" alt="" />
             </div>
             <h4>Practice</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="text-secondary">
+              We believe fitness should be accessible to everyone
+            </p>
           </div>
           <div class="habit-card">
             <div class="card-img">
               <img src="./images/image 5.png" alt="" />
             </div>
             <h4>Weight Loss</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="text-secondary">
+              We believe fitness should be accessible to everyone.
+            </p>
           </div>
         </div>
-      </div> -->
+      </div>
 
-      <!-- <div class="run-section">
+      <div class="run-section">
         <div class="run-details">
-          <h1>Run as Extra Mile easily</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            excepturi aut earum repudiandae facilis quos tempora adipisci nisi
-            eos quibusdam. Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Id, ipsam?
+          <h1 class="text-primary">Run as Extra <br />Mile easily</h1>
+          <p class="text-secondary">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
           </p>
-          <button>Join Now</button>
+          <button class="btn-primary">Join Now</button>
         </div>
         <div class="run-image">
           <img src="./images/run.jpg" alt="" />
         </div>
-      </div> -->
+      </div>
 
       <!-- bmi section start -->
-      <!-- <div class="bmi-section">
+      <div class="bmi-info">
+        <h1 class="text-primary">BMI Calculator</h1>
+        <p class="text-secondary">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          nesciunt, maxime possimus odit delectus voluptatem
+        </p>
+      </div>
+      <div class="bmi-section">
         <div class="bmi-container">
           <div class="bmi-chart">
             <h3>BMI Calculator Chart</h3>
 
-            <table border="2px">
+            <table border="1px" class="bmi-table">
               <thead>
                 <th>BMI</th>
                 <th>Weight Status</th>
@@ -169,8 +183,12 @@
                   <td>Healthy</td>
                 </tr>
                 <tr>
-                  <td>Below 18.5</td>
-                  <td>Underweight</td>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 -and Above</td>
+                  <td>Obese</td>
                 </tr>
               </tbody>
             </table>
@@ -178,79 +196,112 @@
           <div class="bmi-calculator">
             <h3>Calculate Your BMI</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Provident, vel.
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
             </p>
-            <form>
-              <div class="d-flex">
-                <input type="text" placeholder="Height/cm" />
-                <input type="text" placeholder="Weight/kg" />
-              </div>
+            <form class="form-container">
+              <input class="input-field" type="text" placeholder="Height/cm" />
+              <input class="input-field" type="text" placeholder="Weight/kg" />
 
-              <div class="d-flex">
-                <input type="number" placeholder="age" />
-                <input type="text" placeholder="sex" />
-              </div>
-              <select style="width: 50%;" name="activity" id="">
-                <option value="default">Select an activity factor</option>
+              <input
+                class="input-field"
+                input-field
+                type="number"
+                placeholder="age"
+              />
+              <!-- <input class="input-field" type="text" placeholder="sex" /> -->
+
+              <select class="input-field" name="sex" id="">
+                <option value="default">Sex</option>
+                <option value="Worker">Male</option>
+                <option value="Worker">Female</option>
+              </select>
+              <select class="input-field" name="activity" id="activity-input">
+                <option value="default">Select an activity</option>
                 <option value="Worker">Worker</option>
               </select>
+              <br />
+              <button class="btn-primary">Calculate</button>
             </form>
           </div>
         </div>
-      </div> -->
+      </div>
+
+      <!-- bmi section end -->
 
       <!-- team section start -->
-      <!-- <div class="team-section">
-        <h2>Meet Our Team</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-          excepturi facere atque numquam nesciunt quaerat ipsam, voluptatum
-          modi?
-        </p>
+      <div class="team-section">
+        <div class="meet-team">
+          <h2 class="text-primary">Meet Our Team</h2>
+          <p class="text-secondary">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
 
         <div class="trainer-container">
           <div class="trainer-pic">
             <img src="./images/trainer1.png" alt="" />
+            <div class="bg-gradient"></div>
+            <div class="trainer-info">
+              <h3>Jeromon 1</h3>
+              <p>Trainer</p>
+            </div>
           </div>
           <div class="trainer-pic">
             <img src="./images/trainer2.png" alt="" />
+            <div class="bg-gradient"></div>
+            <div class="trainer-info">
+              <h3>Jeromon 2</h3>
+              <p>Trainer</p>
+            </div>
           </div>
           <div class="trainer-pic">
             <img src="./images/trainer3.png" alt="" />
+            <div class="bg-gradient"></div>
+            <div class="trainer-info">
+              <h3>Jeromon 3</h3>
+              <p>Trainer</p>
+            </div>
           </div>
           <div class="trainer-pic">
             <img src="./images/trainer4.png" alt="" />
+            <div class="bg-gradient"></div>
+            <div class="trainer-info">
+              <h3>Jeromon Bell</h3>
+              <p>Trainer</p>
+            </div>
           </div>
           <div class="trainer-pic">
             <img src="./images/trainer5.png" alt="" />
+            <div class="bg-gradient"></div>
           </div>
           <div class="trainer-pic">
             <img src="./images/trainer6.png" alt="" />
+            <div class="bg-gradient"></div>
           </div>
         </div>
-      </div> -->
+      </div>
       <!-- team section end -->
     </main>
 
     <!-- start footer section -->
 
-    <!-- <footer>
+    <footer id="footer-container">
       <div id="footer-section">
         <div class="site-info">
-          <h2>Fitness</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente
-            placeat, dicta, accusamus aperiam eos perferendis cum voluptatibus,
-            iusto ea aliquid exercitationem? Commodi, repellat assumenda? Et
-            laboriosam pariatur molestias commodi.
+          <h2 class="text-primary"><em>Fitness</em></h2>
+          <p class="text-secondary">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
           </p>
         </div>
 
         <div class="important-links">
           <div class="left-side">
-            <h4>Get Started</h4>
-            <ul>
+            <h2>Get Started</h2>
+            <ul class="text-secondary all-links">
               <li>Service</li>
               <li>Contact Us</li>
               <li>Affiliate Program</li>
@@ -258,8 +309,8 @@
             </ul>
           </div>
           <div class="right-side">
-            <h4>Get Started</h4>
-            <ul>
+            <h2>About Info</h2>
+            <ul class="text-secondary all-links">
               <li>Service</li>
               <li>Contact Us</li>
               <li>Affiliate Program</li>
@@ -268,8 +319,10 @@
           </div>
         </div>
       </div>
-      <hr />
-      <p>All right reserved @Fitness 2024</p>
-    </footer> -->
+      <div class="copy-right">
+        <hr />
+        <p class="text-secondary">All right reserved @Fitness 2024</p>
+      </div>
+    </footer>
   </body>
 </html>
