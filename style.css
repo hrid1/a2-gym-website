@@ -335,6 +335,10 @@ td {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.238);
 }
+
+select > option{
+  color: black;
+}
 .height-weight {
   width: 100%;
 }
@@ -350,7 +354,6 @@ td {
 /* ----------------------trainer  team  container------------------------- */
 .meet-team {
   width: 50%;
-  /* border: 1px solid salmon; */
   margin: 4rem auto;
   text-align: center;
   padding: 1rem;
@@ -368,7 +371,6 @@ td {
   background-color: rgb(43, 40, 37);
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid blue;
   gap: 0;
 }
 
@@ -378,7 +380,6 @@ td {
   height: 95%;
   border-radius: 16px;
   overflow: hidden;
-  border: 1px solid green;
 }
 .trainer-pic > img {
   width: 100%;
@@ -452,13 +453,11 @@ td {
 /* -----------------------youtube section------------------------ */
 .tutorial-info {
   text-align: center;
-  /* border: 2px solid red; */
   padding: 2rem;
   margin-top: 3rem;
 }
 
 .youtube-setion {
-  /* border: 2px solid blue; */
   height: 500px;
   width: 90%;
   margin: 0 auto;
@@ -470,13 +469,11 @@ td {
 
 .video-container {
   width: 100%;
-  border: 2px solid green;
   height: 90%;
 }
 
 .video-details {
   padding: 2rem;
-  border: 2px solid tomato;
   width: 50%;
 }
 .video-details > p {
