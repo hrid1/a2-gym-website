@@ -56,7 +56,7 @@ body {
   );
 
   width: 100%;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 /* navbar style start */
@@ -64,7 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 20px 50px;
 
   margin: 0 auto;
 }
@@ -214,6 +214,7 @@ body {
   background: #000;
   color: white;
   padding: 1.5rem 0;
+  margin-top: 2rem;
 }
 
 .habit-card-container {
@@ -458,7 +459,7 @@ select > option{
 .tutorial-info {
   text-align: center;
   padding: 2rem;
-  margin-top: 3rem;
+  margin: 3rem auto;
 }
 
 .youtube-setion {
@@ -488,6 +489,11 @@ select > option{
 -------------------------------Design------------------------------------*/
 
 @media screen and (max-width: 576px) {
+
+  #header-section{
+    padding-top: 1rem;
+  }
+
   #hero-section {
     flex-direction: column;
     /* gap: 20px; */
